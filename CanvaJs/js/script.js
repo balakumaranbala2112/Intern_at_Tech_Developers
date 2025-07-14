@@ -27,3 +27,4 @@ var chart = new CanvasJS.Chart("chartContainer", {
 chart.render();
 
 }
+
