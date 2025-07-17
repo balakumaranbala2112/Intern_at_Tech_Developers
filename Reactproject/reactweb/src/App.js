@@ -1,47 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <main>
-        {/* ✅ NEW: Custom Text Container */}
-        <div style={styles.tectContainer}>
-          <h2 styles={styles.heading}>project Card</h2>
-          <p>React App</p>
-          <a href='https://developer.mozilla.org/en-US/' target='_blank'>MDN</a>
+    <header>
+      <div className="Head">
+        <h1 className="logo">Balakumaran</h1>
+        <div className="Role">
+          <h2 className="Role-Heading">Role</h2>
+          <p className="Role-description">
+            I'm a final-year Computer Science Engineering student passionate
+            about full-stack web development, especially the MERN stack.
+            Currently, I'm focused on mastering JavaScript, React, and becoming
+            a job-ready developer.
+          </p>
         </div>
-      </main>
-    </div>
+        <div className="About">
+          <h2 className="About-Heading">About</h2>
+          <p className="About-description">
+            Engineering student at Anna University and MERN Stack Intern at Top
+            Tech Developers, actively building hands-on web development skills
+            through real projects.
+          </p>
+        </div>
+        <button>More Info</button>
+      </div>
+      <div className="image">
+        <img src="/images/profile_image.png" />
+      </div>
+    </header>
   );
-}
-
-// ✅ Add simple inline styles
-const styles = {
-  tectContainer: {
-    backgroundColor: '#ccc',
-    borderRadius: '10px',
-    margin: '50px',
-    padding: '8px',
-  },
-
-  heading: {
-    color: 'red',
-  }
 }
 
 export default App;
