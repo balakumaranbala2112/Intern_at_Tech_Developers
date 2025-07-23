@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  list-style: none;
+}
+
+.Resume {
+  text-align: center;
+}
+
+/* ======== profileContainer Styles ======= */
+
+.profileContainer,
+.ProfileContents {
+  border: 2px solid #919191;
+  border-radius: 20px;
+  padding: 13px;
+  margin: 10px;
+}
+
+.Profile_image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  background: #fff;
+}
+
+.profileContainer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  text-align: justify;
+}
+
+.ProfileInfo h1,
+.ProfileInfo div,
+.ProfileInfo p {
+  padding: 10px 0;
+}
+
+.ProfileInfo h1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ======== ProfileContents Styles ======= */
+
+.ProfileContents {
+  columns: 200px 2;
+}
+
+.ProfileContents > div {
+  break-inside: avoid;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.heading p {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ProfileContents {
+  column-rule: 2px solid gray;
+}
+
+.nameEx {
+  font-weight: 700;
+}
+
+resume {
+  background-color: #833ab4;
+}

@@ -74,6 +74,7 @@ main {
 
 .Title {
   text-align: center;
+  font-size: 2rem;
 }
 
 main h1,
@@ -102,7 +103,6 @@ h3 {
   align-items: flex-start;
   counter-increment: list-counter;
   margin-bottom: 8px;
-  position: relative;
 }
 
 .custom-list li::before {

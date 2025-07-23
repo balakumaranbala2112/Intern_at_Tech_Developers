@@ -108,15 +108,19 @@ function App() {
             </div>
 
             <section>
-              <h2>🚀 Live Demo / GitHub</h2>
+              <h2>Live Demo / GitHub</h2>
               <p>
-                <a href="https://github.com/Arundeveloper001/Mern-stack-Frontend" target="_blank" rel="noreferrer">
-                  🔗 View GitHub Repository
+                <a
+                  href="https://github.com/Arundeveloper001/Mern-stack-Frontend"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View GitHub Repository
                 </a>
               </p>
               <p>
                 <a href="#" target="_blank" rel="noreferrer">
-                  🚀 View Live Project
+                  View Live Project
                 </a>
               </p>
             </section>
