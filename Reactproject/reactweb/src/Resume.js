@@ -129,6 +129,18 @@ function Resume() {
             </div>
           </div>
         </div>
+        <div className="Certificates">
+          <div className="heading">
+            <h2>CERTIFICATES</h2>
+            <p>06</p>
+          </div>
+          <section className="resume-section">
+            <ul className="custom-counter">
+              <li>HTML & CSS - LinkedIn Learning</li>
+              <li>JavaScript (Ongoing)</li>
+            </ul>
+          </section>
+        </div>
       </div>
     </main>
   );

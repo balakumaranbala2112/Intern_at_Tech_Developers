@@ -83,3 +83,28 @@
 resume {
   background-color: #833ab4;
 }
+
+.ProfileContents > div {
+  padding: 10px;
+}
+
+.custom-counter {
+  list-style: none;
+  counter-reset: item; 
+  padding-left: 0;
+}
+
+.custom-counter li {
+  counter-increment: item; 
+  margin: 0.5rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.custom-counter li::before {
+  content: counter(item, decimal-leading-zero) ". ";
+  position: absolute;
+  left: 0;
+  color: #6b46c1;
+  font-weight: bold;
+}
