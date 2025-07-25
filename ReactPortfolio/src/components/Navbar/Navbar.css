@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.Logo {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 1.2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: #1a1a2e;
+  color: whitesmoke;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 13px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 8px 12px;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  color: whitesmoke;
+}
