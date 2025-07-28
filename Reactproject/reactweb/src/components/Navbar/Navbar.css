@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.Logo {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+  background-color: antiquewhite;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}

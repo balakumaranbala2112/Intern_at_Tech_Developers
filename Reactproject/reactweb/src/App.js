@@ -29,7 +29,7 @@ function App() {
           <img src="/images/profile_image.png" />
         </div>
       </header>
-      <main>
+      <main className="Appss">
         <h2 className="Title">Project Documentation</h2>
         <section className="Documentation">
           <section className="SectionOne">

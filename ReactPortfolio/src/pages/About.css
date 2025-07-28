@@ -1,0 +1,108 @@
+.about {
+  margin-left: 20px;
+  scroll-margin-top: 20px;
+}
+
+.titles {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.about__container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  margin-right: 20px;
+  gap: 30px;
+}
+
+.about__image {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 450.14px;
+  background-color: #fc7130;
+  border-radius: 10px;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__image img {
+  width: 300px;
+  height: 345.7px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.profile__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  gap: 5px;
+}
+
+.about__details {
+  padding: 10px;
+}
+
+.about__position {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about__service-title {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.about__services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* Service Card Styles */
+.service-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-card__header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.service-card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.service-card__description {
+  font-size: 0.95rem;
+  color: #333;
+}

@@ -1,0 +1,54 @@
+.Home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 0 0 0 7%;
+}
+
+.ImageContainer {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.ImageContainer img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.HomeContents {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.HomeTitle {
+  font-size: 2.5rem;
+}
+
+.HomeContents button {
+  all: unset;
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  width: 100px;
+}
+
+.Myprogress {
+  background-color: whitesmoke;
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: auto;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

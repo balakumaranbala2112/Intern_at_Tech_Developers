@@ -1,37 +1,93 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: content-box;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.Logo {
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-  font-size: 1.2rem;
-}
-
-nav {
+nav.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 10%;
   background-color: #1a1a2e;
   color: whitesmoke;
+  position: relative;
+  z-index: 10;
 }
 
-nav ul li {
-  display: inline-block;
-  padding: 0 13px;
+.logo h1 {
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
 }
 
-nav ul li a {
+/* Default Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
   text-decoration: none;
   color: whitesmoke;
   padding: 8px 12px;
+  transition: 0.3s ease;
 }
 
-nav ul li a:hover {
+.nav-links li a:hover {
   font-weight: bold;
-  color: whitesmoke;
+  color: #00f5d4;
+}
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+/* Open state for animation */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 10%;
+    background-color: #1a1a2e;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }

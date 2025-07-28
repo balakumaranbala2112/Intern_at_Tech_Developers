@@ -63,7 +63,7 @@ header button {
   margin-top: 16px;
 }
 
-main {
+.Appss {
   border: 4px solid;
   border-image: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045) 1;
   box-shadow: 0 0 15px rgba(253, 29, 29, 0.2);
